@@ -23,12 +23,15 @@ article.
 
 * Docker
 * Zookeeper
-* kafka
+* Kafka
 * Kafka Connect
 * MySQL
 * Debezium
+* Spark
 
 ## High level dataflow
+
+For this demo, the sink is local file system instead of HDFS (as shown in the diagram)
 
 ![Log based CDC with Debezium](Log_based_CDC.png)
 
