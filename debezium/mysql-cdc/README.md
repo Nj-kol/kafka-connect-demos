@@ -18,6 +18,9 @@
 
 ## Tech Stack used
 
+This project has been inspired from [this](https://www.startdataengineering.com/post/change-data-capture-using-debezium-kafka-and-pg/)
+article.
+
 * Docker
 * Zookeeper
 * kafka
@@ -25,6 +28,9 @@
 * MySQL
 * Debezium
 
+## High level dataflow
+
+![Log based CDC with Debezium](Log_based_CDC.png)
 
 References
 ===========
